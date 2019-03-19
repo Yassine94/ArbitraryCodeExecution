@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck arbitrary_code_exec_inject.mdx",
+    "build": "mdx-deck build arbitrary_code_exec_inject.mdx",
+    "pdf": "mdx-deck pdf arbitrary_code_exec_inject.mdx",
+    "image": "mdx-deck screenshot arbitrary_code_exec_inject.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "mdx-deck": "^1.6.7"
+  },
+  "name": "arbitrary_code_injection_execution",
+  "version": "1.0.0",
+  "dependencies": {
+    "grid-styled": "^5.0.2"
+  }
+}
